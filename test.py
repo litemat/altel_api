@@ -6,7 +6,7 @@
 
 from altel_api import AltelB2B
 
-client = AltelB2B(username="700XXXXXXX", password="********")
+client = AltelB2B(username="747XXXXXXX", password="********")
 
 test_number: str = ""
 test_uin: str = ""

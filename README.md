@@ -48,7 +48,7 @@
 
 
 ```bash
-pip install altel_api
+pip install altel_b2b_api
 ```
 
 ---
@@ -58,7 +58,7 @@ pip install altel_api
 
 
 ```python
-from altel_api import AltelB2B
+from altel_b2b_api import AltelB2B
 
 client = AltelB2B(username="747XXXXXXX", password="ваш_пароль")
 

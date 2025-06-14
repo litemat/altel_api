@@ -48,7 +48,7 @@
 
 
 ```bash
-pip install cloudscraper
+pip install altel_api
 ```
 
 ---

@@ -161,7 +161,7 @@ client = AltelB2B(username="747XXXXXXX", password="ваш_пароль")
 
 Получает всех абонентов.
 
-- `limit=0` — получить всех
+- `limit=0` — получить всех (не рекомендуется, может вызвать зависания)
 - `limit=N` — получить N первых
 
 ### `search_subscriber(number: str) -> str`

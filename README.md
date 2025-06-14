@@ -63,8 +63,8 @@ from altel_api import AltelB2B
 client = AltelB2B(username="747XXXXXXX", password="ваш_пароль")
 
 if client.login():
-    subs = client.search_subscriber(number="7001234567")
-    if subs:
+    sub = client.search_subscriber(number="7001234567")
+    if sub:
         print(subs)
 ```
 ---

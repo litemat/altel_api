@@ -113,8 +113,8 @@ client.search_subscriber(number: str) -> str
 ### Блокировка / Разблокировка
 
 ```python
-client.block(msisdn: str) -> str
-client.unblock(msisdn: str) -> str
+client.block(number: str) -> str
+client.unblock(number: str) -> str
 ```
 
 Изменяет статус абонента через соответствующие API-эндпоинты.
@@ -150,7 +150,7 @@ client.unblock(msisdn: str) -> str
 ### Класс: `AltelB2B`
 
 ```python
-client = AltelB2B(username="700XXXXXXX", password="ваш_пароль")
+client = AltelB2B(username="747XXXXXXX", password="ваш_пароль")
 ```
 
 ### `login() -> str`
